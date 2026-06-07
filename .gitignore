@@ -1,0 +1,5 @@
+.env
+.generate_progress.json
+__pycache__/
+*.pyc
+venv/

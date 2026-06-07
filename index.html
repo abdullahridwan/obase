@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OrthoBase</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HOME -->
+  <div id="home" class="screen active">
+    <div class="home-left">
+      <div class="brand-rule"></div>
+      <div class="home-brand">
+        <div class="brand-logo">
+          <svg class="brand-logo-mark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="6" fill="#6B1020"/>
+            <text x="16" y="21.5" font-family="Georgia, serif" font-size="17" font-weight="900" fill="#FDF8F5" text-anchor="middle" dominant-baseline="auto">O</text>
+          </svg>
+          <span class="brand-logo-text">OrthoBase</span>
+        </div>
+        <p class="brand-eyebrow">Orthopedics from first principles</p>
+        <h1 class="brand-name">Learn the<br><em>why</em> behind<br>the bone.</h1>
+        <p class="brand-desc">A stepping stone to Orthobullets.<br>Understand it, don't just memorize it.</p>
+      </div>
+      <div class="home-stats" id="home-stats">
+        <div class="stat"><span class="stat-n" id="stat-total">—</span><span class="stat-l">Questions</span></div>
+        <div class="stat"><span class="stat-n" id="stat-cats">—</span><span class="stat-l">Topics</span></div>
+        <div class="stat"><span class="stat-n" id="stat-done">0</span><span class="stat-l">Answered</span></div>
+      </div>
+    </div>
+    <div class="home-right">
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label class="filter-label">Category</label>
+          <div class="pill-row" id="cat-filter"></div>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Difficulty</label>
+          <div class="pill-row" id="diff-filter">
+            <button class="pill active" data-diff="all">All</button>
+            <button class="pill" data-diff="beginner">Beginner</button>
+            <button class="pill" data-diff="intermediate">Intermediate</button>
+          </div>
+        </div>
+      </div>
+      <div class="queue-info" id="queue-info"></div>
+      <button class="start-btn" id="start-btn">Start Session →</button>
+      <p class="loading-msg hidden" id="loading-msg">Loading questions...</p>
+    </div>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="quiz" class="screen">
+    <div class="quiz-rule"></div>
+    <div class="quiz-inner">
+
+      <header class="quiz-header">
+        <button class="back-btn" id="back-btn">← Home</button>
+        <div class="quiz-meta">
+          <span class="quiz-topic" id="quiz-topic"></span>
+          <div class="quiz-progress-wrap">
+            <div class="quiz-progress-fill" id="quiz-progress"></div>
+          </div>
+        </div>
+        <span class="quiz-counter" id="quiz-counter"></span>
+      </header>
+
+      <main class="quiz-body">
+
+        <!-- Question -->
+        <div class="q-card" id="q-card">
+          <div class="q-meta">
+            <span class="q-category" id="q-category"></span>
+            <span class="q-difficulty" id="q-difficulty"></span>
+          </div>
+          <p class="q-vignette" id="q-vignette"></p>
+          <p class="q-stem" id="q-stem"></p>
+          <div class="options" id="options"></div>
+
+          <div class="feedback hidden" id="feedback">
+            <div class="feedback-label" id="feedback-label"></div>
+            <p class="feedback-text" id="feedback-text"></p>
+            <button class="btn-next" id="btn-next">Next question →</button>
+          </div>
+
+          <button class="btn-explain" id="btn-explain">Break this down from scratch</button>
+          <div class="explainer hidden" id="explainer">
+            <p class="explainer-label">First Principles</p>
+            <p class="explainer-text" id="explainer-text"></p>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- DONE -->
+  <div id="done-screen" class="screen">
+    <div class="done-inner">
+      <div class="done-mark">✓</div>
+      <h2 class="done-title">Session Complete</h2>
+      <p class="done-sub" id="done-sub"></p>
+      <div class="done-stats" id="done-stats"></div>
+      <button class="start-btn" id="done-home">Back to Home</button>
+    </div>
+  </div>
+
+  <script src="questions-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+[
+  {
+    "category": "Basic Science",
+    "topics": [
+      "Bone structure and composition",
+      "Bone healing and remodeling",
+      "Cartilage biology",
+      "Ligament and tendon biology",
+      "Muscle physiology",
+      "Biomechanics basics",
+      "Bone grafts and implants"
+    ]
+  },
+  {
+    "category": "Fracture Fundamentals",
+    "topics": [
+      "Fracture classification basics",
+      "Open vs closed fractures",
+      "Compartment syndrome",
+      "Fracture stability and treatment principles",
+      "Avascular necrosis"
+    ]
+  },
+  {
+    "category": "Hip",
+    "topics": [
+      "Hip anatomy",
+      "Femoral neck fractures",
+      "Intertrochanteric fractures",
+      "Hip dislocations",
+      "Avascular necrosis of the femoral head",
+      "Hip osteoarthritis and total hip replacement"
+    ]
+  },
+  {
+    "category": "Knee",
+    "topics": [
+      "Knee anatomy",
+      "ACL tears",
+      "Meniscus tears",
+      "Patellofemoral syndrome",
+      "Knee osteoarthritis",
+      "Tibial plateau fractures",
+      "PCL and posterolateral corner injuries"
+    ]
+  },
+  {
+    "category": "Shoulder",
+    "topics": [
+      "Shoulder anatomy",
+      "Rotator cuff tears",
+      "Shoulder impingement syndrome",
+      "Anterior shoulder dislocation",
+      "Posterior shoulder dislocation",
+      "AC joint injuries",
+      "Proximal humerus fractures",
+      "Clavicle fractures",
+      "SLAP tears"
+    ]
+  },
+  {
+    "category": "Spine",
+    "topics": [
+      "Spine anatomy and biomechanics",
+      "Lumbar disc herniation",
+      "Cervical disc herniation",
+      "Spinal stenosis",
+      "Spondylolisthesis",
+      "Cauda equina syndrome",
+      "Thoracolumbar fractures",
+      "Cervical spine fractures and dislocations",
+      "Scoliosis basics"
+    ]
+  },
+  {
+    "category": "Hand and Wrist",
+    "topics": [
+      "Carpal tunnel syndrome",
+      "Scaphoid fractures",
+      "Distal radius fractures",
+      "Trigger finger",
+      "De Quervain tenosynovitis",
+      "Finger fractures and dislocations",
+      "Flexor and extensor tendon injuries"
+    ]
+  },
+  {
+    "category": "Foot and Ankle",
+    "topics": [
+      "Ankle anatomy and sprains",
+      "Ankle fractures",
+      "Achilles tendon rupture",
+      "Plantar fasciitis",
+      "Lisfranc injury",
+      "Calcaneus fractures"
+    ]
+  },
+  {
+    "category": "Pediatric Ortho",
+    "topics": [
+      "Growth plate anatomy and Salter-Harris classification",
+      "Supracondylar humerus fractures in children",
+      "Developmental dysplasia of the hip",
+      "Legg-Calve-Perthes disease",
+      "Slipped capital femoral epiphysis",
+      "Pediatric scoliosis"
+    ]
+  },
+  {
+    "category": "Sports Medicine",
+    "topics": [
+      "Stress fractures",
+      "Medial tibial stress syndrome",
+      "Overuse injuries and tendinopathy",
+      "Return to sport principles"
+    ]
+  },
+  {
+    "category": "Nerve and Muscle",
+    "topics": [
+      "Peripheral nerve injury classification",
+      "Common nerve entrapments",
+      "Brachial plexus anatomy and injuries",
+      "Compartment syndrome and fasciotomy"
+    ]
+  },
+  {
+    "category": "Bone Tumors",
+    "topics": [
+      "Benign vs malignant bone tumors",
+      "Osteosarcoma",
+      "Ewing sarcoma",
+      "Metastatic bone disease",
+      "Common benign bone lesions"
+    ]
+  }
+]
